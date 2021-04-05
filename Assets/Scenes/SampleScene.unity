@@ -608,6 +608,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 278561831}
     m_Modifications:
+    - target: {fileID: 1347483189, guid: 4b1be73b9fd5af14e9c8e1c865e53fd4, type: 3}
+      propertyPath: positionPitchFactor
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 3365737430120091248, guid: 4b1be73b9fd5af14e9c8e1c865e53fd4,
         type: 3}
       propertyPath: m_Name
