@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,19 @@ public class PlayerController : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
+    }
+
+    void ProcessFiring()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            Debug.Log("Pew Pew!");
+        }
+        else
+        {
+            Debug.Log("Sup");
+        }
     }
 
     void ProcessRotation()
